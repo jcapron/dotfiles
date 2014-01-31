@@ -1,5 +1,5 @@
 ZSH=$HOME/.oh-my-zsh
-ZSH_MODULES=$HOME/Dropbox/Projects/dotfiles/zsh_modules
+ZSH_MODULES=$HOME/Code/More/dotfiles/zsh_modules
 ZSH_THEME="gitsome"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_AUTO_TITLE="true"
