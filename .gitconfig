@@ -14,3 +14,4 @@
   com = checkout master
   p = pull
   st = status
+  phm = push heroku master
