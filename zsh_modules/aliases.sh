@@ -6,3 +6,4 @@ alias src="source $HOME/.zshrc"
 alias l='ls -lah'
 alias psaux='ps aux | grep'
 alias cl="clear"
+alias pingjacques="curl -X GET http://jacques-hipchat-bot.herokuapp.com"
