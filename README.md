@@ -10,7 +10,7 @@ These are my own config files for:
 - .pryrc
 - .rspec
 
-![screenshot](https://raw.github.com/KevinBongart/gitsome/master/screenshot.png)
+![screenshot](https://camo.githubusercontent.com/27308ec5e2c0a959146475f971b3a547c53a337e/687474703a2f2f662e636c2e6c792f6974656d732f31643179337331393343333033773271313332352f73637265656e73686f742e706e67)
 
 Using the dotfiles
 ------------------
@@ -35,7 +35,7 @@ Making Sublime Text 3 Awesomer
 
 ![Sublime Text](http://f.cl.ly/items/3A1p1u0S1w2U3i0c0n0H/sublime_screenshot.png)
 
-1. Add Sublime Text to your command line tools as `s` (Ain't Nobody Got Time for `subl`): `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /bin/s`        
+1. Add Sublime Text to your command line tools as `s` (Ain't Nobody Got Time for `subl`): `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /bin/s`
 2. Install [Package Control](https://sublime.wbond.net/installation)
 3. Install a nice theme and color scheme:
   - Soda Theme
