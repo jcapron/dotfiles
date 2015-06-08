@@ -1,2 +1,2 @@
-export GOPATH=$HOME/Dropbox/Projects/go
+export GOPATH=$HOME/Code/go
 export PATH=$PATH:$GOPATH/bin

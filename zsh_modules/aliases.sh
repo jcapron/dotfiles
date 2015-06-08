@@ -1,5 +1,5 @@
 # .zshrc aliases
-alias zshrc="s $HOME/.zshrc $HOME/Code/More/dotfiles"
+alias zshrc="s $HOME/.zshrc $HOME/Code/dotfiles"
 alias src="source $HOME/.zshrc"
 
 # Smartass aliases
