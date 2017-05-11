@@ -7,6 +7,11 @@ alias glg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset 
 alias gco='git checkout'
 alias gcom='git checkout master'
 alias gphm='git push heroku master'
+alias gas='git add . && git stash'
+alias gsp='git stash pop'
+alias gsl='git stash list'
+alias gf='git fetch'
+alias gfpm='git fetch && git pull origin master'
 
 # Eject button for git
 alias gfuck='git reset . && git checkout . && git clean -df'

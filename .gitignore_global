@@ -38,3 +38,8 @@ Thumbs.db
 
 .rake_tasks
 .tddium*
+
+julien.config
+
+# for api/config/env/local.ini in integration-tests repo #
+*.ini
