@@ -33,4 +33,17 @@ source $ZSH_MODULES/py.sh
 source $ZSH_MODULES/rbenv.sh
 source $ZSH_MODULES/variables.sh
 
+cbi-scp() {
+  if [ ! -f ~/.ssh/blessid ]; then
+    echo -e 'y'|ssh-keygen -f ~/.ssh/blessid -b 4096 -t rsa -N ''
+    ssh-keygen -y -f ~/.ssh/blessid > ~/.ssh/blessid.pub
+  fi
+  ip=`echo $@ | perl -nle '/(10\.[0-3]\.\d+\.\d+)/ && print $1'`
+  python ~/.ssh/bless_client/bless_client.py -d $ip
+  scp -F /dev/null -o "IdentitiesOnly true" -o "StrictHostKeyChecking false" -i ~/.ssh/blessid -i ~/.ssh/blessid-cert.pub $@
+}
+
 clear
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+
